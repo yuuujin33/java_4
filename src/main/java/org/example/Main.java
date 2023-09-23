@@ -1,19 +1,20 @@
 package org.example;
+// 문제 : 번호가 다른 각각의 자동차가 서로 다른 최고속력으로 달리게 해주세요.
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-public class Main {
+class Main {
     public static void main(String[] args) {
-        // Press Ctrl+1 with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Opt+Shift+X or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        // 구현시작
+        // 구현끝
 
-            // Press Opt+Shift+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+Shift+B.
-            System.out.println("i = " + i);
-        }
+        a자동차1.달리다();
+        // 출력 => 1번 자동차가 최고속력 230km로 달립니다.
+
+        a자동차2.달리다();
+        // 출력 => 2번 자동차가 최고속력 210km로 달립니다.
     }
+}
+
+class 자동차 {
+    // 구현
 }
